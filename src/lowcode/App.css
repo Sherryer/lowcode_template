@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container .drag-list {
+  width: 100px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+.container .drag-list button {
+  margin: 8px auto;
+  display: block;
+  width: 100%;
+}
+
+.container .drag-catch-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-operate {
+  display: flex;
+}
+.icon-operate div {
+  font-size: 14px;
+  border: 1px solid #eee;
+  padding: 4px;
+  margin: 0 2px;
+}

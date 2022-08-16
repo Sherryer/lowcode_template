@@ -1,0 +1,17 @@
+{
+  "name": "lowcode-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.20",
+    "@tencent/spaui": "^3.0.96-beta.0",
+    "react": "^16.8.6",
+    "eventing-bus": "^2.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
